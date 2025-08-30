@@ -39,8 +39,47 @@ b = a/b
 a = a/b
 print(f"After swaping a = {a} and b = {b} ")
 
+# Largest of three numbers
+a, b, c = 40, 20, 30
 
-# n Largest of three numbers
+# first way
+print(f"Finding largest in {a} ,{b}, {c}")
 
-# n Even/odd check
+if a > b:
+    if a > c:
+        print(f"{a} is the largest number.")
+    else:
+        print(f"{c} is the largest number.")
+elif b > c:
+    print(f"{b} is the largest number.")
+else:
+    print(f"{c} is the largest number.")
+
+# second way
+print(f"{max(a, b, c)} is the largest number")
+
+
+# Even/odd check
+
+n = 13
+
+# first way
+print(f"Finding if {n} is even or odd.")
+
+if n % 2 == 0:
+    print(f"{n} is even number.")
+else:
+    print(f"{n} is odd number.")
+
+
 # n Factorial (loop)
+
+x = 5
+print(f"Finding factorial of {x}")
+n = x
+res = 1
+while x > 0:
+    res = res * x
+    x = x-1
+
+print(f"factorial of {n} is {res}.")
