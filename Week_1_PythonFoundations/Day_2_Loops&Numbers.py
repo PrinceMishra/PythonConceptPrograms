@@ -11,6 +11,11 @@ def factorial(num):
 
 print("Factorial of {} is {}".format(n, factorial(n)))
 
+print()
+print("##################################")
+print()
+
+
 # n Fibonacci (loop + recursion)
 
 n = 10
@@ -31,6 +36,11 @@ while x < n:
     print(res, " ", end="")
     x = x + 1
 
+print()
+print()
+print("##################################")
+print()
+
 
 # Sum of digits
 n = 5
@@ -40,6 +50,11 @@ for i in range(1, n+1):
     sum = sum + i
 
 print(f"Sum of {n} digits is {sum}")
+
+
+print()
+print("##################################")
+print()
 
 
 # Reverse a number
@@ -54,6 +69,9 @@ while n > 0:
 
 print(f"Reverse of {temp} is {rev}")
 
+print()
+print("##################################")
+print()
 
 # n Prime check
 n = 53
@@ -71,3 +89,7 @@ if counter == True:
     print(f"{n} is a Prime number.")
 else:
     print(f"{n} is not a Prime number.")
+
+print()
+print("##################################")
+print()
